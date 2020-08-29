@@ -1,0 +1,9 @@
+C:\Users\ilink\source\repos\QuickBuffer\test\bin\Debug\test.exe.config
+C:\Users\ilink\source\repos\QuickBuffer\test\bin\Debug\test.exe
+C:\Users\ilink\source\repos\QuickBuffer\test\bin\Debug\test.pdb
+C:\Users\ilink\source\repos\QuickBuffer\test\bin\Debug\QuickBuffer.dll
+C:\Users\ilink\source\repos\QuickBuffer\test\bin\Debug\QuickBuffer.pdb
+C:\Users\ilink\source\repos\QuickBuffer\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\ilink\source\repos\QuickBuffer\test\obj\Debug\test.csproj.CopyComplete
+C:\Users\ilink\source\repos\QuickBuffer\test\obj\Debug\test.exe
+C:\Users\ilink\source\repos\QuickBuffer\test\obj\Debug\test.pdb
