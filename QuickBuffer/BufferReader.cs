@@ -4,10 +4,10 @@ using System.Text;
 
 namespace QuickBuffer
 {
-    public class BufferReader
+    public class BufferReader : IDisposable
     {
         protected byte[] Buffer { get; set; }
-        private readonly List<int> _steps;
+        private List<int> _steps;
         private int _offset;
 
         public int Offset
@@ -20,16 +20,15 @@ namespace QuickBuffer
             }
         }
 
-        public Encoding TextEncoding { get; set; }
+        public Encoding TextEncoding { get; set; } = Encoding.UTF8;
 
         public BufferReader(byte[] buffer)
         {
             Buffer = buffer;
             _steps = new List<int>();
-            TextEncoding = Encoding.UTF8;
         }
 
-        public void Revert(int steps)
+        public void Revert(int steps = 1)
         {
             int count = _steps.Count;
 
@@ -86,6 +85,19 @@ namespace QuickBuffer
         public float ReadFloat()
         {
             return BitConverter.ToSingle(ReadBytes(sizeof(float)), 0);
+        }
+
+        public bool ReadBool()
+        {
+            return ReadByte() != 0;
+        }
+
+        public void Dispose()
+        {
+            Buffer = null;
+            _steps.Clear();
+            _steps = null;
+            TextEncoding = null;
         }
     }
 }

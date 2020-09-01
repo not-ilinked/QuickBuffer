@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BitArrayUtils.cs" />
+    <Compile Include="BitBuffer.cs" />
     <Compile Include="BufferReader.cs" />
     <Compile Include="BufferWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

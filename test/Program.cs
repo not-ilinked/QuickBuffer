@@ -12,10 +12,7 @@ namespace test
     {
         static void Main(string[] args)
         {
-            byte[] meme = new byte[] { 1 };
 
-            BitArray arr = new BitArray(meme);
-            arr.Reverse();
         }
     }
 }

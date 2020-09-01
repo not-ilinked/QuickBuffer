@@ -7,3 +7,13 @@ C:\Users\ilink\source\repos\QuickBuffer\test\obj\Debug\test.csprojAssemblyRefere
 C:\Users\ilink\source\repos\QuickBuffer\test\obj\Debug\test.csproj.CopyComplete
 C:\Users\ilink\source\repos\QuickBuffer\test\obj\Debug\test.exe
 C:\Users\ilink\source\repos\QuickBuffer\test\obj\Debug\test.pdb
+C:\Users\edhbu\source\repos\QuickBuffer\test\bin\Debug\test.exe.config
+C:\Users\edhbu\source\repos\QuickBuffer\test\bin\Debug\test.exe
+C:\Users\edhbu\source\repos\QuickBuffer\test\bin\Debug\test.pdb
+C:\Users\edhbu\source\repos\QuickBuffer\test\bin\Debug\QuickBuffer.dll
+C:\Users\edhbu\source\repos\QuickBuffer\test\bin\Debug\QuickBuffer.pdb
+C:\Users\edhbu\source\repos\QuickBuffer\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\edhbu\source\repos\QuickBuffer\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+C:\Users\edhbu\source\repos\QuickBuffer\test\obj\Debug\test.csproj.CopyComplete
+C:\Users\edhbu\source\repos\QuickBuffer\test\obj\Debug\test.exe
+C:\Users\edhbu\source\repos\QuickBuffer\test\obj\Debug\test.pdb

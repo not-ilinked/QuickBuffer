@@ -3,3 +3,9 @@ C:\Users\ilink\source\repos\QuickBuffer\QuickBuffer\bin\Debug\QuickBuffer.pdb
 C:\Users\ilink\source\repos\QuickBuffer\QuickBuffer\obj\Debug\QuickBuffer.csprojAssemblyReference.cache
 C:\Users\ilink\source\repos\QuickBuffer\QuickBuffer\obj\Debug\QuickBuffer.dll
 C:\Users\ilink\source\repos\QuickBuffer\QuickBuffer\obj\Debug\QuickBuffer.pdb
+C:\Users\edhbu\source\repos\QuickBuffer\QuickBuffer\bin\Debug\QuickBuffer.dll
+C:\Users\edhbu\source\repos\QuickBuffer\QuickBuffer\bin\Debug\QuickBuffer.pdb
+C:\Users\edhbu\source\repos\QuickBuffer\QuickBuffer\obj\Debug\QuickBuffer.csprojAssemblyReference.cache
+C:\Users\edhbu\source\repos\QuickBuffer\QuickBuffer\obj\Debug\QuickBuffer.csproj.CoreCompileInputs.cache
+C:\Users\edhbu\source\repos\QuickBuffer\QuickBuffer\obj\Debug\QuickBuffer.dll
+C:\Users\edhbu\source\repos\QuickBuffer\QuickBuffer\obj\Debug\QuickBuffer.pdb

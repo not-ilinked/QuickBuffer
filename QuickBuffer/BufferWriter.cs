@@ -4,15 +4,14 @@ using System.Text;
 
 namespace QuickBuffer
 {
-    public class BufferWriter
+    public class BufferWriter : IDisposable
     {
         protected List<byte> Buffer { get; set; }
-        public Encoding TextEncoding { get; set; }
+        public Encoding TextEncoding { get; set; } = Encoding.UTF8;
 
         public BufferWriter()
         {
             Buffer = new List<byte>();
-            TextEncoding = Encoding.UTF8;
         }
 
         public void WriteByte(byte b)
@@ -55,6 +54,11 @@ namespace QuickBuffer
             WriteBytes(BitConverter.GetBytes(f));
         }
 
+        public void WriteBool(bool b)
+        {
+            WriteByte((byte)(b ? 1 : 0));
+        }
+
         public List<byte> ToList()
         {
             return Buffer;
@@ -63,6 +67,13 @@ namespace QuickBuffer
         public byte[] ToArray()
         {
             return Buffer.ToArray();
+        }
+
+        public void Dispose()
+        {
+            Buffer.Clear();
+            Buffer = null;
+            TextEncoding = null;
         }
     }
 }
