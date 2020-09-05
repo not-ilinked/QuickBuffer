@@ -41,9 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BitBuffer.cs" />
-    <Compile Include="BufferReader.cs" />
-    <Compile Include="BufferWriter.cs" />
+    <Compile Include="Bits\BitBuffer.cs" />
+    <Compile Include="Bits\BitEnumerator.cs" />
+    <Compile Include="Bits\BitList.cs" />
+    <Compile Include="Bytes\BufferReader.cs" />
+    <Compile Include="Bytes\BufferWriter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

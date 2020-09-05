@@ -12,7 +12,7 @@ namespace test
     {
         static void Main(string[] args)
         {
-
+            BitList list = new BitList(new byte[] { 1, 3, 3, 7 });
         }
     }
 }

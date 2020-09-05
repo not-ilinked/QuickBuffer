@@ -34,6 +34,8 @@ namespace QuickBuffer
 
             if (steps > count)
                 throw new ArgumentOutOfRangeException("Not enough steps have been made");
+            else if (steps < 0)
+                throw new ArgumentOutOfRangeException("Cannot revert a negative amount of steps");
 
             for (int i = count - 1; i >= count - steps; i--)
             {
@@ -92,11 +94,11 @@ namespace QuickBuffer
             return ReadByte() != 0;
         }
 
+
         public void Dispose()
         {
             Buffer = null;
             _steps.Clear();
-            _steps = null;
             TextEncoding = null;
         }
     }

@@ -72,7 +72,6 @@ namespace QuickBuffer
         public void Dispose()
         {
             Buffer.Clear();
-            Buffer = null;
             TextEncoding = null;
         }
     }
