@@ -15,7 +15,7 @@ namespace QuickBuffer
         {
             bool[] bits = new bool[source.BitLength];
             for (int i = 0; i < bits.Length; i++)
-                bits[i] = bits[i];
+                bits[i] = source[i];
 
             return bits;
         }
