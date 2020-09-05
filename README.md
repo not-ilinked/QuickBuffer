@@ -3,10 +3,11 @@ A simple library for easily handling bytes and bits.
 
 # Reading/writing buffers
 QuickBuffer provides extendable classes for reading/writing byte buffers.<br>
-The class BufferReader is used for reading buffers whilst BufferWriter is used for writing them. One could add additional functionality by deriving the classes.
+The class BufferReader is used for reading buffers whilst BufferWriter is used for writing them.<br>
+One could add additional functionality by deriving said classes.
 
 ### Writing
-Let's start off by writing a buffer that we'll then later read from.
+Let's start off by writing a buffer to read from later.
 
 ```csharp
 BufferWriter writer = new BufferWriter();
@@ -27,7 +28,7 @@ BufferReader reader = new BufferReader(output);
 reader.TextEncoding = Encoding.Unicode;
 
 bool b = reader.ReadBool();
-string str = reader.ReadString(8); // ReadString() takes in am amount of bytes to read. We have to do the original length x2 because of the unicode encoding
+string str = reader.ReadString(8); // ReadString() takes in an amount of bytes to read. We have to do the original length x2 because of the unicode encoding
 int i = reader.ReadInt();
 ```
 
